@@ -7,8 +7,6 @@ import Form from 'react-bootstrap/Form';
 import FormControl from 'react-bootstrap/FormControl';
 import Button from 'react-bootstrap/Button';
 
-
-
 function NavBar() {
     return (
         <>
@@ -24,12 +22,12 @@ function NavBar() {
                     <FormControl type="text" placeholder="Search Your Destination" className="mr-sm-2" />
                     <Button variant="warning">Search</Button>
                 </Form>
-                <Nav className="ml-auto">
-                    <Nav.Link href="#home">News</Nav.Link>
-                    <Nav.Link href="#features">Destination</Nav.Link>
-                    <Nav.Link href="#pricing">Blog</Nav.Link>
-                    <Nav.Link href="#pricing">Contact</Nav.Link>
-                    <Button variant="warning">Log In</Button>
+                <Nav className=" ml-auto">
+                    <Nav.Link href  ="/news">News </Nav.Link >
+                    <Nav.Link href  ="/destination/1">Destination</Nav.Link>
+                    <Nav.Link href  ="/blog">Blog</Nav.Link>
+                    <Nav.Link href  ="/contact">Contact</Nav.Link>
+                    <Nav.Link href  ="/logIn"><Button variant="warning">Log In</Button></Nav.Link>
                 </Nav>
                 
             </Navbar>
